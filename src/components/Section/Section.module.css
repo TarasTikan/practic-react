@@ -1,0 +1,16 @@
+.baseSection {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 1200px;
+}
+
+.title {
+  font-size: 18px;
+  color: green;
+  stroke-width: 20px;
+}
+
+.superSection {
+  composes: baseSection;
+  background-color: bisque;
+}
